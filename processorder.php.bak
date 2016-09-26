@@ -37,7 +37,7 @@
 	$totalamout = $totalamout*(1+$taxrate);
 	echo "Total include tax :$".number_format($totalamout,2)."<br/>";
 	 //where customer from
-	//$find = $_POST['find'];
+	$find = $_POST['find'];
 	/*echo "$find";
 	switch($find){
 	 case "a":
